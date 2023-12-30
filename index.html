@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/style.css" rel="stylesheet">
+    <link href="./styles/fonts.css" rel="stylesheet">
+    <title> Feliz Ano Novo! </title>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <h1> Te amo - Te amo - Te amo - Te amo - Te amo - Te amo - Te amo </h1>
+        </header>
+    </div>
+
+
+    <main>
+        <aside>
+            <h2><span> Um quase feliz 2024! </span></h2>
+            <h2> Eba!!!!!!! </h2>
+            <p> Quero te agradecer por ser o namorado mais fofo da face da terra!! Sou a pessoa mais feliz do mundo por ter encontrado alguém tão amoroso igual você, te amo demais!!! Com o poder da criatividade e de 3 tutoriais no youtube, fui capaz de produzir este site incrível porque eu sou muito foda e também porque queria fazer alguma coisa que você gosta e, como eu sou uma gênia, fiz esse sitezinho pq sei que você "gosta" de programação :) Agora vou começar a escrever coisas aleatórias pro texto ficar no formato que eu quero Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </aside>
+        <article>
+            <img src="components/images/coraçãozinhi.png" alt="eu-entregando-meu-coração"
+        </article>
+    </main>
+
+    <div class="painel">
+        <h3>Você aceita continuar sendo meu namorado em 2024?</h3>
+    </div>
+
+    <div class="painel2">
+       <a href="https://youtu.be/fMIn43MiwG8?t=42" > <button id="sim"> Sim </button> </a>
+        <button onmouseover="fuja()" id="nao"> Não </button> 
+    </div>
+
+    <script>
+            /*oiii vida muito provavelmente você vai abrir isso pra ver as merdas que eu fiz aqui, mas, sem querer me gabar, acho que fui muito bem pra quem ta tentando pela primeira vez viu (tirando a parte que quando mexe nas bordas da janela as letras ficam todas cagadas). te amo muitao*/
+        function fuja(){
+            var botaonao = document.getElementById("nao")
+
+            var largurajanela = window.innerWidth;
+            var alturajanela = window.innerHeight;
+
+            var maxX = largurajanela - botaonao.offsetWidth;
+            var maxY = alturajanela - botaonao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaonao.style.left = aleatorioX + "px";
+            botaonao.style.top = aleatorioY + "px";
+        }
+    </script>
+
+</body>
+</html>
