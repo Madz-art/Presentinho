@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'kastella';
+    src: url(../components/fonts/kastella.otf) format('woff2'),
+         url(../components/fonts/kastella.otf) format('woff');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'drinktea';
+    src: url(../components/fonts/Drink\ Tea.otf) format('woff2'),
+         url(../components/fonts/Drink\ Tea.otf) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-size: x-large;
+
+}
+
+@font-face {
+    font-family: 'mademegood';
+    src: url(../components/fonts/MADEGoodTimeGroteskPERSONALUSE.otf) format('woff2'),
+         url(../components/fonts/MADEGoodTimeGroteskPERSONALUSE.otf) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-size: x-large;
+
+}

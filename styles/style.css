@@ -1,0 +1,111 @@
+.header{
+    background-color: rgb(212, 65, 65);
+    position:absolute;
+    top: 0; left: 0; right: 0;
+    padding: 0rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.painel{
+    background-color: rgb(255, 161, 161);
+    width: 1200px;
+    height: 75px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.painel2{
+
+    width: 1200px;
+    height: 55px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+body{
+    background-color: rgb(255, 145, 132);
+    color: beige;
+    font-family: mademegood;
+    font-size: larger;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 500;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    justify-content: left;
+}
+
+span{
+    color: rgb(255, 86, 75);
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    max-width: 580px;
+    justify-content: left;
+}
+
+h3{
+    padding-top: 20px;
+}
+
+#sim{
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: rgb(255, 86, 75);
+    font-family: mademegood;
+    font-size: medium;
+    margin-left: -60px;
+   
+}
+
+#nao{
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: rgb(255, 86, 75);
+    margin-left: 10px;
+    font-family: mademegood;
+    font-size: medium;
+
+}
